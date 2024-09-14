@@ -1,0 +1,14 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/Classes/ECE385/lab2/lab2_1/lab2_1.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,uvm,,,,,,
+D:/Classes/ECE385/lab2/lab2_1/lab2_1.srcs/sources_1/imports/Lab2/design_source/Control.sv,1704005712,systemVerilog,D:/Classes/ECE385/lab2/lab2_1/lab2_1.srcs/sources_1/imports/Lab2/design_source/HexDriver.sv;D:/Classes/ECE385/lab2/lab2_1/lab2_1.srcs/sources_1/imports/Lab2/design_source/Processor.sv;D:/Classes/ECE385/lab2/lab2_1/lab2_1.srcs/sources_1/imports/Lab2/design_source/Reg_4.sv;D:/Classes/ECE385/lab2/lab2_1/lab2_1.srcs/sources_1/imports/Lab2/design_source/Register_unit.sv;D:/Classes/ECE385/lab2/lab2_1/lab2_1.srcs/sources_1/imports/Lab2/design_source/Router.sv;D:/Classes/ECE385/lab2/lab2_1/lab2_1.srcs/sources_1/imports/Lab2/design_source/Synchronizers.sv;D:/Classes/ECE385/lab2/lab2_1/lab2_1.srcs/sources_1/imports/Lab2/design_source/compute.sv;D:/Classes/ECE385/lab2/lab2_1/lab2_1.srcs/sources_1/imports/Lab2/sim_sources/testbench.sv,D:/Classes/ECE385/lab2/lab2_1/lab2_1.srcs/sources_1/imports/Lab2/design_source/HexDriver.sv,,$unit_Control_sv_1600465912;control,,uvm,,,,,,
+D:/Classes/ECE385/lab2/lab2_1/lab2_1.srcs/sources_1/imports/Lab2/design_source/HexDriver.sv,1726069877,systemVerilog,,D:/Classes/ECE385/lab2/lab2_1/lab2_1.srcs/sources_1/imports/Lab2/design_source/Processor.sv,,HexDriver,,uvm,,,,,,
+D:/Classes/ECE385/lab2/lab2_1/lab2_1.srcs/sources_1/imports/Lab2/design_source/Processor.sv,1706285871,systemVerilog,,D:/Classes/ECE385/lab2/lab2_1/lab2_1.srcs/sources_1/imports/Lab2/design_source/Reg_4.sv,,Processor,,uvm,,,,,,
+D:/Classes/ECE385/lab2/lab2_1/lab2_1.srcs/sources_1/imports/Lab2/design_source/Reg_4.sv,1704005774,systemVerilog,,D:/Classes/ECE385/lab2/lab2_1/lab2_1.srcs/sources_1/imports/Lab2/design_source/Register_unit.sv,,reg_4,,uvm,,,,,,
+D:/Classes/ECE385/lab2/lab2_1/lab2_1.srcs/sources_1/imports/Lab2/design_source/Register_unit.sv,1704005806,systemVerilog,,D:/Classes/ECE385/lab2/lab2_1/lab2_1.srcs/sources_1/imports/Lab2/design_source/Router.sv,,register_unit,,uvm,,,,,,
+D:/Classes/ECE385/lab2/lab2_1/lab2_1.srcs/sources_1/imports/Lab2/design_source/Router.sv,1704005904,systemVerilog,,D:/Classes/ECE385/lab2/lab2_1/lab2_1.srcs/sources_1/imports/Lab2/design_source/Synchronizers.sv,,router,,uvm,,,,,,
+D:/Classes/ECE385/lab2/lab2_1/lab2_1.srcs/sources_1/imports/Lab2/design_source/Synchronizers.sv,1706310422,systemVerilog,,D:/Classes/ECE385/lab2/lab2_1/lab2_1.srcs/sources_1/imports/Lab2/design_source/compute.sv,,sync_debounce,,uvm,,,,,,
+D:/Classes/ECE385/lab2/lab2_1/lab2_1.srcs/sources_1/imports/Lab2/design_source/compute.sv,1704006160,systemVerilog,,D:/Classes/ECE385/lab2/lab2_1/lab2_1.srcs/sources_1/imports/Lab2/sim_sources/testbench.sv,,compute,,uvm,,,,,,
+D:/Classes/ECE385/lab2/lab2_1/lab2_1.srcs/sources_1/imports/Lab2/sim_sources/testbench.sv,1706638588,systemVerilog,,,,testbench,,uvm,,,,,,

@@ -1,0 +1,425 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Sep 11 01:42:50 2024
+# Process ID: 14324
+# Current directory: D:/Classes/ECE385/lab2/lab2_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent36280 D:\Classes\ECE385\lab2\lab2_2\lab2_2.xpr
+# Log file: D:/Classes/ECE385/lab2/lab2_2/vivado.log
+# Journal file: D:/Classes/ECE385/lab2/lab2_2\vivado.jou
+# Running On: XXH, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 6, Host memory: 34212 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Classes/ECE385/lab2/lab2_2/lab2_2.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/Classes/ECE385/tools/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/Classes/ECE385/tools/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at D:/Classes/ECE385/tools/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at D:/Classes/ECE385/tools/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at D:/Classes/ECE385/tools/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/Classes/ECE385/tools/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/Classes/ECE385/tools/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/Classes/ECE385/tools/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/Classes/ECE385/tools/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Classes/ECE385/lab2/lab2_2/lab2_2.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Classes/ECE385/tools/vivado/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1704.535 ; gain = 268.273
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7s50csga324-1
+Top: Processor
+INFO: [Device 21-403] Loading part xc7s50csga324-1
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Classes/ECE385/tools/vivado/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'q' is not allowed [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Synchronizers.sv:20]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 2485.082 ; gain = 410.930
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Processor' [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Processor.sv:8]
+INFO: [Synth 8-6157] synthesizing module 'register_unit' [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Register_unit.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'reg_4' [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Reg_4.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'reg_4' (0#1) [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Reg_4.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'register_unit' (0#1) [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Register_unit.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'compute' [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/compute.sv:1]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/compute.sv:14]
+INFO: [Synth 8-6155] done synthesizing module 'compute' (0#1) [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/compute.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'router' [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Router.sv:1]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Router.sv:13]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Router.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'router' (0#1) [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Router.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'control' [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Control.sv:3]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Control.sv:30]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Control.sv:59]
+INFO: [Synth 8-6155] done synthesizing module 'control' (0#1) [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Control.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'HexDriver' [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/HexDriver.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'nibble_to_hex' [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/HexDriver.sv:11]
+INFO: [Synth 8-6155] done synthesizing module 'nibble_to_hex' (0#1) [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/HexDriver.sv:11]
+INFO: [Synth 8-6157] synthesizing module 'nibble_to_hex' [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/HexDriver.sv:11]
+INFO: [Synth 8-6155] done synthesizing module 'nibble_to_hex' (0#1) [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/HexDriver.sv:11]
+INFO: [Synth 8-6157] synthesizing module 'nibble_to_hex' [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/HexDriver.sv:11]
+INFO: [Synth 8-6155] done synthesizing module 'nibble_to_hex' (0#1) [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/HexDriver.sv:11]
+INFO: [Synth 8-6157] synthesizing module 'nibble_to_hex' [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/HexDriver.sv:11]
+INFO: [Synth 8-6155] done synthesizing module 'nibble_to_hex' (0#1) [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/HexDriver.sv:11]
+INFO: [Synth 8-6155] done synthesizing module 'HexDriver' (0#1) [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/HexDriver.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'sync_debounce' [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Synchronizers.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'sync_debounce' (0#1) [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Synchronizers.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'Processor' (0#1) [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Processor.sv:8]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2569.094 ; gain = 494.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2569.094 ; gain = 494.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2569.094 ; gain = 494.941
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2569.094 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2637.094 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 2692.793 ; gain = 618.641
+33 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:04 ; elapsed = 00:00:14 . Memory (MB): peak = 2692.793 ; gain = 950.918
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Classes/ECE385/lab2/lab2_2/lab2_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Classes/ECE385/tools/vivado/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Classes/ECE385/lab2/lab2_2/lab2_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Control.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/HexDriver.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HexDriver
+INFO: [VRFC 10-311] analyzing module nibble_to_hex
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Processor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Processor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Reg_4.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_4
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Register_unit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Router.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module router
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Synchronizers.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sync_debounce
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'q' is not allowed [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Synchronizers.sv:20]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/compute.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module compute
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/sim_sources/testbench.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Classes/ECE385/lab2/lab2_2/lab2_2.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Classes/ECE385/lab2/lab2_2/lab2_2.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/Classes/ECE385/tools/vivado/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/sim_sources/testbench.sv" Line 1. Module testbench has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/sim_sources/testbench.sv" Line 1. Module testbench has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/Classes/ECE385/lab2/lab2_2/lab2_2.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/Classes/ECE385/lab2/lab2_2/lab2_2.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_Control_sv_1600465912
+Compiling module xil_defaultlib.reg_4
+Compiling module xil_defaultlib.register_unit
+Compiling module xil_defaultlib.compute
+Compiling module xil_defaultlib.router
+Compiling module xil_defaultlib.control
+Compiling module xil_defaultlib.nibble_to_hex
+Compiling module xil_defaultlib.HexDriver_default
+Compiling module xil_defaultlib.sync_debounce
+Compiling module xil_defaultlib.Processor_default
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Classes/ECE385/lab2/lab2_2/lab2_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: 0ns : none of the conditions were true for unique case from File:D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/compute.sv:14
+WARNING: 0ns : none of the conditions were true for unique case from File:D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Router.sv:13
+WARNING: 0ns : none of the conditions were true for unique case from File:D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Router.sv:23
+WARNING: 0ns : none of the conditions were true for unique case from File:D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Control.sv:59
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 2748.262 ; gain = 22.469
+set_property -name {xsim.simulate.runtime} -value {all} -objects [get_filesets sim_1]
+set_property dataflow_viewer_settings "min_width=16"   [current_fileset]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Classes\ECE385\lab2\lab2_2\lab2_2.srcs\sources_1\imports\Lab2\sim_sources\testbench.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Classes\ECE385\lab2\lab2_2\lab2_2.srcs\sources_1\imports\Lab2\design_source\Processor.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Classes/ECE385/lab2/lab2_2/lab2_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Classes/ECE385/tools/vivado/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Classes/ECE385/lab2/lab2_2/lab2_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj testbench_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Classes/ECE385/lab2/lab2_2/lab2_2.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/Classes/ECE385/tools/vivado/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Classes/ECE385/lab2/lab2_2/lab2_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run all
+WARNING: 0ns : none of the conditions were true for unique case from File:D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/compute.sv:14
+WARNING: 0ns : none of the conditions were true for unique case from File:D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Router.sv:13
+WARNING: 0ns : none of the conditions were true for unique case from File:D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Router.sv:23
+WARNING: 0ns : none of the conditions were true for unique case from File:D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Control.sv:59
+$finish called at time : 1240 ns : File "D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/sim_sources/testbench.sv" Line 126
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for all
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_design
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Classes/ECE385/lab2/lab2_2/lab2_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Classes/ECE385/tools/vivado/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Classes/ECE385/lab2/lab2_2/lab2_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj testbench_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Classes/ECE385/lab2/lab2_2/lab2_2.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/Classes/ECE385/tools/vivado/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Classes/ECE385/lab2/lab2_2/lab2_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run all
+WARNING: 0ns : none of the conditions were true for unique case from File:D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/compute.sv:14
+WARNING: 0ns : none of the conditions were true for unique case from File:D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Router.sv:13
+WARNING: 0ns : none of the conditions were true for unique case from File:D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Router.sv:23
+WARNING: 0ns : none of the conditions were true for unique case from File:D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/design_source/Control.sv:59
+$finish called at time : 1240 ns : File "D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/imports/Lab2/sim_sources/testbench.sv" Line 126
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for all
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_runs synth_1 -jobs 6
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Wed Sep 11 02:18:22 2024] Launched synth_1...
+Run output will be captured here: D:/Classes/ECE385/lab2/lab2_2/lab2_2.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7s50csga324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2765.438 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 57 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2765.438 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+set_property package_pin "" [get_ports [list  {Din[3]}]]
+place_ports {Din[0]} G1
+place_ports {Din[1]} F2
+place_ports {Din[2]} F1
+place_ports {Din[3]} E2
+set_property IOSTANDARD LVCMOS25 [get_ports [list {Din[3]} {Din[2]} {Din[1]} {Din[0]}]]
+set_property IOSTANDARD LVCMOS25 [get_ports [list {Din[1]}]]
+place_ports {F[0]} B2
+place_ports {F[1]} A4
+place_ports {F[2]} A5
+set_property IOSTANDARD LVCMOS25 [get_ports [list {Din[3]} {Din[2]} {Din[1]} {Din[0]}]]
+set_property IOSTANDARD LVCMOS25 [get_ports [list {F[2]} {F[1]} {F[0]}]]
+set_property IOSTANDARD LVCMOS25 [get_ports [list {Aval[3]} {Aval[2]} {Aval[1]} {Aval[0]}]]
+set_property IOSTANDARD LVCMOS25 [get_ports [list {Bval[3]} {Bval[2]} {Bval[1]} {Bval[0]}]]
+set_property IOSTANDARD LVCMOS25 [get_ports [list {hex_grid[3]} {hex_grid[2]} {hex_grid[1]} {hex_grid[0]}]]
+undo
+INFO: [Common 17-17] undo 'set_property IOSTANDARD LVCMOS25 [get_ports [list {hex_grid[3]} {hex_grid[2]} {hex_grid[1]} {hex_grid[0]}]]'
+undo
+INFO: [Common 17-17] undo 'set_property IOSTANDARD LVCMOS25 [get_ports [list {Bval[3]} {Bval[2]} {Bval[1]} {Bval[0]}]]'
+set_property IOSTANDARD LVCMOS25 [get_ports [list {hex_grid[3]} {hex_grid[2]} {hex_grid[1]} {hex_grid[0]}]]
+undo
+INFO: [Common 17-17] undo 'set_property IOSTANDARD LVCMOS25 [get_ports [list {hex_grid[3]} {hex_grid[2]} {hex_grid[1]} {hex_grid[0]}]]'
+place_ports {R[1]} A6
+startgroup
+set_property package_pin "" [get_ports [list  {R[1]}]]
+place_ports {R[0]} A6
+endgroup
+place_ports {R[1]} C7
+set_property IOSTANDARD LVCMOS25 [get_ports [list {R[1]} {R[0]}]]
+place_ports Reset J2
+set_property IOSTANDARD LVCMOS25 [get_ports [list Reset]]
+place_ports Clk N15
+set_property IOSTANDARD LVCMOS25 [get_ports [list Clk]]
+place_ports Execute H2
+set_property IOSTANDARD LVCMOS25 [get_ports [list Execute]]
+place_ports LoadA G2
+place_ports LoadB J1
+set_property IOSTANDARD LVCMOS25 [get_ports [list LoadA]]
+set_property IOSTANDARD LVCMOS25 [get_ports [list LoadB]]
+set_property package_pin "" [get_ports [list  {LED[3]}]]
+set_property IOSTANDARD LVCMOS3 [get_ports [list {LED[0]}]]
+ERROR: [Common 17-69] Command failed: Invalid I/O Standard 'LVCMOS3'. Default I/O Standard is used instead
+set_property IOSTANDARD LVCMOS33 [get_ports [list {LED[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {LED[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {LED[1]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {LED[3]} {LED[2]} {LED[1]} {LED[0]}]]
+place_ports {LED[0]} C9
+place_ports {LED[1]} B11
+place_ports {LED[2]} C10
+place_ports {LED[3]} A11
+set_property IOSTANDARD LVCMOS33 [get_ports [list {LED[3]} {LED[2]} {LED[1]} {LED[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {Bval[3]} {Bval[2]} {Bval[1]} {Bval[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {Aval[3]} {Aval[2]} {Aval[1]} {Aval[0]}]]
+file mkdir D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/constrs_1/new
+close [ open D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/constrs_1/new/lab2_2.xdc w ]
+add_files -fileset constrs_1 D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/constrs_1/new/lab2_2.xdc
+set_property target_constrs_file D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/constrs_1/new/lab2_2.xdc [current_fileset -constrset]
+save_constraints -force
+close_design
+reset_run synth_1
+INFO: [Project 1-1160] Copying file D:/Classes/ECE385/lab2/lab2_2/lab2_2.runs/synth_1/Processor.dcp to D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+launch_runs synth_1 -jobs 6
+[Wed Sep 11 02:32:17 2024] Launched synth_1...
+Run output will be captured here: D:/Classes/ECE385/lab2/lab2_2/lab2_2.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7s50csga324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 3029.891 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 57 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/constrs_1/new/lab2_2.xdc]
+Finished Parsing XDC File [D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/constrs_1/new/lab2_2.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3029.891 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+place_ports {Aval[0]} C17
+place_ports {Aval[1]} B18
+place_ports {Aval[2]} A17
+place_ports {Aval[3]} B17
+place_ports {Bval[0]} C13
+place_ports {Bval[1]} C14
+place_ports {Bval[2]} D14
+place_ports {Bval[3]} D15
+save_constraints
+close_design
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+file mkdir D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/new
+close [ open D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/new/Reg_8.sv w ]
+add_files D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/new/Reg_8.sv
+set_property file_type Verilog [get_files  D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/new/Reg_8.sv]
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/new/Reg_8.sv] -no_script -reset -force -quiet
+remove_files  D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/new/Reg_8.sv
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Sep 11 04:09:24 2024...

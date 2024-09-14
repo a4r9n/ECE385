@@ -1,0 +1,113 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Sep 11 01:42:50 2024
+# Process ID: 14324
+# Current directory: D:/Classes/ECE385/lab2/lab2_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent36280 D:\Classes\ECE385\lab2\lab2_2\lab2_2.xpr
+# Log file: D:/Classes/ECE385/lab2/lab2_2/vivado.log
+# Journal file: D:/Classes/ECE385/lab2/lab2_2\vivado.jou
+# Running On: XXH, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 6, Host memory: 34212 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Classes/ECE385/lab2/lab2_2/lab2_2.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+launch_simulation
+source testbench.tcl
+set_property -name {xsim.simulate.runtime} -value {all} -objects [get_filesets sim_1]
+set_property dataflow_viewer_settings "min_width=16"   [current_fileset]
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim
+close_design
+launch_simulation
+source testbench.tcl
+close_sim
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+set_property package_pin "" [get_ports [list  {Din[3]}]]
+place_ports {Din[0]} G1
+place_ports {Din[1]} F2
+place_ports {Din[2]} F1
+place_ports {Din[3]} E2
+set_property IOSTANDARD LVCMOS25 [get_ports [list {Din[3]} {Din[2]} {Din[1]} {Din[0]}]]
+set_property IOSTANDARD LVCMOS25 [get_ports [list {Din[1]}]]
+place_ports {F[0]} B2
+place_ports {F[1]} A4
+place_ports {F[2]} A5
+set_property IOSTANDARD LVCMOS25 [get_ports [list {Din[3]} {Din[2]} {Din[1]} {Din[0]}]]
+set_property IOSTANDARD LVCMOS25 [get_ports [list {F[2]} {F[1]} {F[0]}]]
+set_property IOSTANDARD LVCMOS25 [get_ports [list {Aval[3]} {Aval[2]} {Aval[1]} {Aval[0]}]]
+set_property IOSTANDARD LVCMOS25 [get_ports [list {Bval[3]} {Bval[2]} {Bval[1]} {Bval[0]}]]
+set_property IOSTANDARD LVCMOS25 [get_ports [list {hex_grid[3]} {hex_grid[2]} {hex_grid[1]} {hex_grid[0]}]]
+undo
+undo
+set_property IOSTANDARD LVCMOS25 [get_ports [list {hex_grid[3]} {hex_grid[2]} {hex_grid[1]} {hex_grid[0]}]]
+undo
+place_ports {R[1]} A6
+startgroup
+set_property package_pin "" [get_ports [list  {R[1]}]]
+place_ports {R[0]} A6
+endgroup
+place_ports {R[1]} C7
+set_property IOSTANDARD LVCMOS25 [get_ports [list {R[1]} {R[0]}]]
+place_ports Reset J2
+set_property IOSTANDARD LVCMOS25 [get_ports [list Reset]]
+place_ports Clk N15
+set_property IOSTANDARD LVCMOS25 [get_ports [list Clk]]
+place_ports Execute H2
+set_property IOSTANDARD LVCMOS25 [get_ports [list Execute]]
+place_ports LoadA G2
+place_ports LoadB J1
+set_property IOSTANDARD LVCMOS25 [get_ports [list LoadA]]
+set_property IOSTANDARD LVCMOS25 [get_ports [list LoadB]]
+set_property package_pin "" [get_ports [list  {LED[3]}]]
+set_property IOSTANDARD LVCMOS3 [get_ports [list {LED[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {LED[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {LED[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {LED[1]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {LED[3]} {LED[2]} {LED[1]} {LED[0]}]]
+place_ports {LED[0]} C9
+place_ports {LED[1]} B11
+place_ports {LED[2]} C10
+place_ports {LED[3]} A11
+set_property IOSTANDARD LVCMOS33 [get_ports [list {LED[3]} {LED[2]} {LED[1]} {LED[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {Bval[3]} {Bval[2]} {Bval[1]} {Bval[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {Aval[3]} {Aval[2]} {Aval[1]} {Aval[0]}]]
+file mkdir D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/constrs_1/new
+close [ open D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/constrs_1/new/lab2_2.xdc w ]
+add_files -fileset constrs_1 D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/constrs_1/new/lab2_2.xdc
+set_property target_constrs_file D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/constrs_1/new/lab2_2.xdc [current_fileset -constrset]
+save_constraints -force
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+place_ports {Aval[0]} C17
+place_ports {Aval[1]} B18
+place_ports {Aval[2]} A17
+place_ports {Aval[3]} B17
+place_ports {Bval[0]} C13
+place_ports {Bval[1]} C14
+place_ports {Bval[2]} D14
+place_ports {Bval[3]} D15
+save_constraints
+close_design
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+file mkdir D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/new
+close [ open D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/new/Reg_8.sv w ]
+add_files D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/new/Reg_8.sv
+set_property file_type Verilog [get_files  D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/new/Reg_8.sv]
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/new/Reg_8.sv] -no_script -reset -force -quiet
+remove_files  D:/Classes/ECE385/lab2/lab2_2/lab2_2.srcs/sources_1/new/Reg_8.sv
